@@ -307,4 +307,21 @@ footer{
     margin: 10px;
     align-items: center;
 
+
+}
+@media(max-width: 768px){
+    nav, .nav2{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner{
+        flex-direction: column;
+        height: auto;
+    }
+    .displaytext{
+        padding: 30px;
+    }
+    .catchy-grid{
+        grid-template-columns: 1fr 1fr;
+    }
 }
